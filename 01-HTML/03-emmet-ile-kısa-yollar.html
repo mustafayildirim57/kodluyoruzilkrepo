@@ -1,0 +1,37 @@
+<h1>HTML</h1>
+<H2>EMMET ZEN</H2>
+
+<!-- Etiket isimlerini direkt verebiliyoruz
+    + -> ile kardeş alt alta öge
+    * -> ile kaçtane öge ise o kadar verebiliyoruz
+    > -> ile iç içe öge
+    ^ -> ile yukarı çık ve öge oluştur // bir üst dizine gel
+    lorem. -> kaç kelime ise "loremSAYI" yapıyoruz
+    . -> ile ögenin clası
+    # -> ile ögenin ıd si
+-->
+    
+<!-- h1+p+p+p+h2+p+p+h3+p+h2+p+p -->
+<!-- h1+p+p+p+h2+p+p+h3+p+h2+p+p -> h1+p*3+h2+p*2+h3+p+h2+p*2  -->
+<!-- ul>li*5 -->
+<!-- ul>li>p*3^p*2^h2 -->
+<!-- ul>li*3>lorem10^p*2>lorem7^^h2>lorem5 -->
+
+<h3 class="clasolussun">Lorem clas.</h3>     <!--h3.clasolussun>lorem1-->
+<h3 id="idolussun">Lorem ıd.</h3>          <!--h3#idolussun>lorem1-->
+<h3 class="clasolussun" id="idolussun">Lorem clas + ıd.</h3> <!--h3.clasolussun#idolussun>lorem1-->
+<h3 class="iki kelimelik">Lorem.</h3> <!-- üç kelime olmuyor-->
+
+<div class="clas"></div> <!-- .clas yapınca div öğesi açıyor-->
+
+<ul> <!-- ul>.clas yapınca otomatik olarak li veriyor-->
+    <li class="clasismi"></li>
+    <li class="clasismi"></li>
+</ul>
+
+<ul> <!-- ul>li.item$*4 -> ifadesindeki "$" işareti sırayla sayı yazmaya yarıyor-->
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+</ul>
