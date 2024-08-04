@@ -1,0 +1,36 @@
+/*  
+    sınıflardan bahsederken -> .class-ismi{cart curt} 
+    idlerden bahsederken -> #id-ismi{car curt}
+*/
+h1, h2, h3, h4, h5, h6 {
+    color: darkgrey;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#first-article {
+    color: blueviolet;
+    font-size: 50;
+}
+
+p {
+    font-size: 15px;
+}
+
+.text-red {
+    color: red;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}

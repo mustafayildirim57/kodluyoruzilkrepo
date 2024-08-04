@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+
+    text-align: center;
+}
+
+.ana-header{
+    font-size: 30px;
+    color: violet;
+}
+
+.bar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color:brown;
+}
+ol, ul{
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
