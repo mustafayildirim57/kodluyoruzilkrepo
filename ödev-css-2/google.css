@@ -1,0 +1,54 @@
+.img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    margin: 50px 50px 0;
+}
+
+
+.packet {
+    width: 1413px;
+    height: 8%;
+    float: left;
+}
+
+.content {
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+.card {
+    width: 31%;
+    margin-right: 1.5px;
+    padding: 5px;
+    height: 75px;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-aqua {
+    background-color: #62B3AA;
+}
