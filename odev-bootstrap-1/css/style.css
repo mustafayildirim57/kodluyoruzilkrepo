@@ -1,0 +1,61 @@
+nav {
+    background-color: #444455 ;
+}
+
+.header {
+    list-style-type: none;
+}
+
+.headerli {
+    float: left;
+    margin-right: 5px;
+    font-size: medium;
+}
+
+.yazi-color {
+    color: gray;
+}
+
+ul.header li:first-child a {
+    color: red;
+}
+
+ul.header li:nth-child(2) a {
+    color: white;
+}
+
+.jumbotron {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+}
+
+.btn2 {
+    background-color: gray;
+    color: white;
+    border-radius: 6px;
+}
+
+.bg-gray {
+    background-color: #E9ECEF;
+}
+.bg-white {
+    background-color: white;
+}
