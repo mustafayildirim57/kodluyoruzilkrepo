@@ -4,6 +4,13 @@
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+  padding-left: 10px;
+}
+
+.middlearea {
+  max-height: 200px !important;
 }
 
 input.empty {
@@ -20,6 +27,13 @@ input.empty {
   color: black;
 }
 
+.card-header {
+  background-color: white;
+}
+
+.card-footer {
+  background-color: white;
+}
 
 .storyphoto {
   width: 60px;
@@ -38,6 +52,13 @@ input.empty {
 .rightpanellinks {
   text-decoration: none;
   color: lightgrey;
+  
+}
+
+#sticky-sidebar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 54px;
 }
 
 .rightpanellinks:hover {
