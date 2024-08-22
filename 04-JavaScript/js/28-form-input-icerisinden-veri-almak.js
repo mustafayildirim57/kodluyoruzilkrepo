@@ -8,5 +8,5 @@ function formSubmit(event) {
     console.log('islem gerceklesti')
     let scoreInputDOM = document.querySelector('#score')
     console.log(scoreInputDOM.value)
-    localStorage.setItem('scoer',scoreInputDOM.value)
+    localStorage.setItem('score',scoreInputDOM.value)
 }
